@@ -1,0 +1,11 @@
+<?php
+// SQL
+$sqlip = "localhost";
+$sqluser = "root";
+$sqlpass = "toor";
+
+//MPD
+$mpdip = "localhost";
+$mpdport = 6600;
+$mpdpass = "mpdpassword";
+?>

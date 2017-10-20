@@ -1,0 +1,473 @@
+/* Default theme
+E8D0A9	B7AFA3	C1DAD6	F5FAFA	ACD1E9	6D929B
+*/
+
+body 
+{
+    background-color: #ACD1E9;
+}
+
+a:link, a:visited 
+{
+    border:none;
+    outline:none;
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+.playerbox 
+{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px; 
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#id3box
+{
+    border-radius: 5px;
+    background: #6D929B;
+	display: flex;
+    padding: 5px; 
+	position:absolute;
+	bottom:30px;
+	margin : auto;
+	margin-left : 20px;
+	margin-top : 10px;
+	width : auto;
+    text-align:center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#id3
+{
+	font-size: 180%;
+	text-align:center;	
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#currentlyplaying
+{
+    border-radius: 25px;
+    background: #6D929B;
+    padding: 20px; 
+	margin : auto;
+	margin-top : 10px;
+	margin-left : 20px;
+	width : auto;
+    float:left;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+.currentlyplayinglogo 
+{
+    display: inline-block;
+    height: 100px; 
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+
+}
+
+
+#connectionstatus
+{
+    padding: 5px; 
+	margin-top : 0px;
+	margin-left : 0px;
+	width : auto;
+    float:left;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#connectionstatuswarning
+{
+    padding: 5px; 
+	margin-top : 0px;
+	margin-left : 0px;
+	width : auto;
+    float:left;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+.streamstatuslogo 
+{
+	position:absolute;
+	margin-top: -80px;
+	margin-left: 25px;
+    height: 50px; 
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#nextbuttondiv
+{
+	margin-top: 0px;
+	margin-left: auto; 
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#nextbuttonimage
+{
+	margin-top: 10px;
+	margin-left: auto;
+    height: 20px; 
+	text-align:center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#bufferbuttondiv
+{
+	margin-top: 0px;
+	margin-left: auto; 
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#bufferbuttonimage
+{
+	margin-top: 10px;
+	margin-left: auto;
+    height: 20px; 
+	text-align:center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#showbuffer
+{
+	font-size: 250%;
+	text-decoration: none;
+    height: 20px; 
+	text-align:center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#boxradios{
+    border-radius: 25px;
+    background: #6D929B;
+    padding: 40px; 
+	margin : auto;
+	margin-top : 50px;
+	width : 650px;
+    text-align:center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+
+.radio 
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 15px;
+	margin-bottom: 20px;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+
+
+.artistbox
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 15px;
+	margin-bottom: 20px;
+    height: 100px; 
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#artistname
+{
+    display: flex;
+	margin-bottom: 40px;
+	text-align:center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+
+#boxplaylists{
+    border-radius: 25px;
+    background: #6D929B;
+    padding: 50px; 
+	margin : auto;
+	margin-top : 30px;
+	width : 550px;
+    text-align:center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+
+.playlists 
+{
+	display: inline-block;
+    margin-left: auto;
+    margin-right: 15px;
+	margin-bottom: 20px;
+    height: 100px; 
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+
+.volume{
+    float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+	height: 80px; 
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+.volumeslider{
+    text-align:right;
+	margin-right: 50px;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+
+img {
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+}
+
+
+.header {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+
+#menu 
+{
+    z-index: 9999999999999;
+    position: absolute;
+    top: 850px;
+	right: 20px;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#menu ul > li ul 
+{
+	position:absolute;
+	margin-left:-9999px;
+	transition:0s 5s;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#menu ul > li:active > ul 
+{
+	margin:0;
+    transition:0s 0s;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#menu ul  ul 
+{
+}
+
+#menu ul li:active > ul 
+{
+}
+	
+#menu ul 
+{
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  	
+}
+	
+#menu ul:after 
+{
+	content: ""; clear: both; 
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+		
+		
+#menu ul li 
+{
+	float: left;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#menu ul li:active 
+{
+}
+
+#menu ul li:active a 
+{
+	color: #fff;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+	
+#menu ul li a 
+{
+	display: block; 
+	padding: 40px 60px;
+	color: #757575; text-decoration: none;	
+	margin-right: 0px;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+	
+#menu ul ul 
+{
+	background: #6D929B;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute;
+	bottom: 100%;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#menu ul ul li 
+{
+	float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+#menu ul ul li a 
+{
+	padding: 15px 40px;
+	color: #fff;	
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}	
+
+
+#container {
+margin: 20px auto;
+width: 550px;
+-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+#write {
+margin: 0 0 5px;
+padding: 5px;
+width: 480px;
+height: 24px;
+font: 1em/1.5 Verdana, Sans-Serif;
+background: #fff;
+border: 1px solid #f9f9f9;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+resize: none;
+-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */  
+}
+
+		
+.progressbarplay {
+	cursor:pointer;overflow: hidden;height: 8px;margin-bottom: 8px;background-color: #F7F7F7;background-image: -moz-linear-gradient(top,whiteSmoke,#F9F9F9);background-image: -ms-linear-gradient(top,whiteSmoke,#F9F9F9);background-image: -webkit-gradient(linear,0 0,0 100%,from(whiteSmoke),to(#F9F9F9));background-image: -webkit-linear-gradient(top,whiteSmoke,#F9F9F9);background-image: -o-linear-gradient(top,whiteSmoke,#F9F9F9);background-image: linear-gradient(top,whiteSmoke,#F9F9F9);background-repeat: repeat-x;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5',endColorstr='#f9f9f9',GradientType=0);-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;
+}
+.progressbarplay .bar {
+	cursor:pointer;background: #4496C6;width: 0;height: 8px;color: white;font-size: 12px;text-align: center;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-transition: width .6s ease;-moz-transition: width .6s ease;-ms-transition: width .6s ease;-o-transition: width .6s ease;transition: width .6s ease;
+}

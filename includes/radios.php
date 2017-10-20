@@ -1,0 +1,66 @@
+<?php
+// Liste des radios
+
+$radiolist = array();
+
+$i = 0;
+	$radiolist[$i][0] = "Radio Swiss Pop";
+	$radiolist[$i][1] = "logos/swisspop.png";
+	$radiolist[$i][2] = "http://stream.srg-ssr.ch/m/rsp/mp3_128";
+	$radiolist[$i][3] = "#000000";
+$i++;
+	$radiolist[$i][0] = "MDZ at Jajas";
+	$radiolist[$i][1] = "logos/mdz.png";
+	$radiolist[$i][2] = "http://bck2800.dyndns.org:8000/mdz";		
+	$radiolist[$i][3] = "#000000";
+$i++;
+	$radiolist[$i][0] = "NRJ rock";
+	$radiolist[$i][1] = "logos/nrjrock.png";
+	$radiolist[$i][2] = "http://energyrock.ice.infomaniak.ch/energyrock-high.mp3";		
+	$radiolist[$i][3] = "#000000";
+$i++;	
+	$radiolist[$i][0] = "Hits my music";
+	$radiolist[$i][1] = "logos/hitsmymusic.jpg";
+	$radiolist[$i][2] = "http://streaming.radionomy.com/Hit-s-My-Music-Pop-Rock";			
+	$radiolist[$i][3] = "#000000";
+$i++;	
+	$radiolist[$i][0] = "Rockradio";
+	$radiolist[$i][1] = "logos/rockradio.png";
+	$radiolist[$i][2] = "http://stream.rockradio.si:9034/stream/;.m3u";	
+	$radiolist[$i][3] = "#FFFFFF";
+$i++;	
+	$radiolist[$i][0] = "Radio Paradise";
+	$radiolist[$i][1] = "logos/paradise.png";
+	$radiolist[$i][2] = "http://stream-tx3.radioparadise.com/ogg-192";	
+	$radiolist[$i][3] = "#000000";
+$i++;	
+	$radiolist[$i][0] = "Elium radio";
+	$radiolist[$i][1] = "logos/elium.png";
+	$radiolist[$i][2] = "http://streaming.radionomy.com/Elium-Rock";		
+	$radiolist[$i][3] = "#000000";
+$i++;	
+	$radiolist[$i][0] = "M2 rock";
+	$radiolist[$i][1] = "logos/m2rock.png";
+	$radiolist[$i][2] = "http://live.m2stream.fr/m2rock-128.mp3";	
+	$radiolist[$i][3] = "#000000";
+$i++;	
+	$radiolist[$i][0] = "Rouge FM rock";
+	$radiolist[$i][1] = "logos/rougefm_rock.png";
+	$radiolist[$i][2] = "http://rouge-rockpop.ice.infomaniak.ch/rouge-rockpop-high.aac";
+	$radiolist[$i][3] = "#FFFFFF";
+$i++;	
+	$radiolist[$i][0] = "Rouge FM Alternative";
+	$radiolist[$i][1] = "logos/rougefm_alt.png";
+	$radiolist[$i][2] = "http://rouge-alternative.ice.infomaniak.ch/rouge-alternative-64.aac";	
+	$radiolist[$i][3] = "#FFFFFF";
+$i++;	
+	$radiolist[$i][0] = "Radio Verbier Rock Blues";
+	$radiolist[$i][1] = "logos/verbier.jpg";
+	$radiolist[$i][2] = "http://streaming.radionomy.com/RadioVerbierRockBlues";	
+	$radiolist[$i][3] = "#FFFFFF";
+$i++;	
+	$radiolist[$i][0] = "";
+	$radiolist[$i][1] = "logos/blank.png";
+	$radiolist[$i][2] = "none";	
+	$radiolist[$i][3] = "#000000";	
+?>
