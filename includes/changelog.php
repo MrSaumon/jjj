@@ -262,6 +262,11 @@ if ($offline_version < 1.42)
 	$changelog .= '<hr/><b>1.42</b><br/>';
 	$changelog .= '+ Scroll auto sur la page de mise à jour<br/>';
 }
+if ($offline_version < 1.43)
+{
+	$changelog .= '<hr/><b>1.43</b><br/>';
+	$changelog .= '+ Fichier de config externe<br/>';
+}
 $changelog .= '<hr/>';
 
 /*
